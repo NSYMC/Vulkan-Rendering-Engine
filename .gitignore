@@ -1,0 +1,46 @@
+# Build systems and IDE output
+/build*/
+/out/
+/.vs/
+/.vscode/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.sln
+*.vcxproj*
+
+# Compiled output
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.o
+*.a
+*.lib
+*.spv
+
+# Runtime and generated diagnostics
+last_seed.txt
+regen_seed.txt
+terrain_analysis.json
+terrain_fingerprint.json
+run_*.txt
+run_output*.txt
+stdout*.txt
+stderr*.txt
+*.log
+
+# Screenshots and captures
+[Ss]creenshot*
+[Ss]creen-[Ss]hot*
+[Cc]apture*
+
+# Large local model packages and texture sets
+/models/*.rar
+/models/4K BLENDER PRINCIPLED BSDF/
+
+# Python cache
+__pycache__/
+*.py[cod]
